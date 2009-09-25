@@ -1,17 +1,17 @@
 <?php
 /*
 Plugin Name: Page Peel BujanQWorks
-Plugin URI: http://herukurniawan.com/2009/09/page-peel-bujanqworks-1-0-wordpress-plugin/
+Plugin URI: http://herukurniawan.com/2009/09/page-peel-bujanqworks-1-1-wordpress-plugin/
 Description: Plugin ini dikembangkan dari source program yang dibuat oleh <a href="http://pagepeel-at-webpicasso.de">christian harz </a> yang dipergunakan secara manual, dengan adanya plugin ini kita tidak perlu mencopy secara manual code - code yang diberikannya.
 Author: heru kurniawan
-Version: 1.0
+Version: 1.1
 Author URI: http://herukurniawan.com/
 */
 function pageer_header()
 {
 	pageear_create_table();
 ?>
-<!-- plugin Page Peel BujanQWOrkS 1.0 http://herukurniawan.com/2009/09/page-peel-bujanqworks-1-0-wordpress-plugin/ -->
+<!-- plugin Page Peel BujanQWOrkS 1.1 http://herukurniawan.com/2009/09/page-peel-bujanqworks-1-1-wordpress-plugin/ -->
 <script type="text/javascript"> 	
 // URL to small image 
 var pagearSmallImg = '<? echo pageear_view_config('small_image');?>'; 
@@ -26,17 +26,17 @@ var jumpTo = '<? echo pageear_view_config('url');?>'
 </script>
 <script src="<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bujanqworks/AC_OETags.js" language="javascript"></script>    
 <script src="<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bujanqworks/pageear.js" type="text/javascript"></script>
-<!-- end plugin Page Peel BujanQWOrkS 1.0 -->
+<!-- end plugin Page Peel BujanQWOrkS 1.1 -->
 <?	
 }
 function pageear_footer()
 {
 ?>
-<!-- plugin Page Peel BujanQWOrkS 1.0 http://herukurniawan.com/2009/09/page-peel-bujanqworks-1-0-wordpress-plugin/ -->	
+<!-- plugin Page Peel BujanQWOrkS 1.1 http://herukurniawan.com/2009/09/page-peel-bujanqworks-1-1-wordpress-plugin/ -->	
 <script type="text/javascript">    
     writeObjects();
 </script>
-<!-- end plugin Page Peel BujanQWOrkS 1.0 -->
+<!-- end plugin Page Peel BujanQWOrkS 1.1 -->
 <?
 }
 
