@@ -25,7 +25,7 @@ Step - Step
 
 = 1.1 =
 
-* change the plugin forder 'page-peel-bw' to 'page-peel-bujanqworks'
+* Change folder name 'page-peel-bw' to 'page-peel-bujanqworks' 
 
 = 1.0 =
 
