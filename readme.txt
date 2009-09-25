@@ -23,6 +23,10 @@ Step - Step
 
 == Changelog ==
 
+= 1.1 =
+
+* Change folder name 'page-peel-bw' to 'page-peel-bujanqworks' 
+
 = 1.0 =
 
 * The First Version
