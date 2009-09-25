@@ -16,16 +16,16 @@ function pageer_header()
 // URL to small image 
 var pagearSmallImg = '<? echo pageear_view_config('small_image');?>'; 
 // URL to small pageear swf
-var pagearSmallSwf = '<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bw/pageear_s.swf'; 
+var pagearSmallSwf = '<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bujanqworks/pageear_s.swf'; 
 // URL to big image
 var pagearBigImg = '<? echo pageear_view_config('large_image');?>'; 
 // URL to big pageear swf
-var pagearBigSwf = '<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bw/pageear_b.swf';
+var pagearBigSwf = '<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bujanqworks/pageear_b.swf';
 // URL to open on pageear click
 var jumpTo = '<? echo pageear_view_config('url');?>' 
 </script>
-<script src="<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bw/AC_OETags.js" language="javascript"></script>    
-<script src="<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bw/pageear.js" type="text/javascript"></script>
+<script src="<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bujanqworks/AC_OETags.js" language="javascript"></script>    
+<script src="<? bloginfo('wpurl'); ?>/wp-content/plugins/page-peel-bujanqworks/pageear.js" type="text/javascript"></script>
 <!-- end plugin Page Peel BujanQWOrkS 1.0 -->
 <?	
 }
@@ -54,8 +54,8 @@ function pageear_create_table()
 		$result_create_table = mysql_query($qry_create_table);
 		
 		$qry_insert_table = "INSERT INTO `wp_pageear_bw`(`small_image`,`large_image`,`version`,`url`)
-				VALUES('".get_bloginfo("url")."/wp-content/plugins/page-peel-bw/pageear_s.jpg',
-				'".get_bloginfo("url")."/wp-content/plugins/page-peel-bw/pageear_b.jpg', '1.0.0', 'http://herukurniawan.com')";
+				VALUES('".get_bloginfo("url")."/wp-content/plugins/page-peel-bujanqworks/pageear_s.jpg',
+				'".get_bloginfo("url")."/wp-content/plugins/page-peel-bujanqworks/pageear_b.jpg', '1.1', 'http://herukurniawan.com')";
 		$result_insert_table = mysql_query($qry_insert_table);		
 		if($result_create_table && $result_insert_table)
 		{
