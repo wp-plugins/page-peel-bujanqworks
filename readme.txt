@@ -16,10 +16,10 @@ Page Peel is the development BujanQWorkS page peel made by christian Harz for th
 
 Step - Step
 
-    1. Download file plugin page-peel-bw-1.0.zip
+    1. Download file plugin page-peel-bujanqworks.zip
     2. Install the plugin in the plugins menu
     3. For the configuration BujanQWorkS page peel can be seen from the Settings menu on the Dasbord wp-admin.
-    4. to version 1.0 can only make changes to the small banners, large banner and URL address
+    4. to version 1.1 can only make changes to the small banners, large banner and URL address
 
 == Changelog ==
 
