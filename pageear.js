@@ -16,16 +16,6 @@
 // Wackelgeschwindigkeit der Ecke 1-4 (2=Standard) 
 // Movement speed of small pageear 1-4 (2=Standard)
 var speedSmall = 1; 
-// Bild spiegelt sich in der aufgeschlagenen Ecke ( true | false )
-// Mirror image ( true | false )
-var mirror = 'true'; 
-// Farbe der aufgeschlagenen Ecke wenn mirror false ist
-// Color of pagecorner if mirror is false
-var pageearColor = 'ffffff';  
-// Zu öffnende URL bei klick auf die geöffnete Ecke
-// Öffnet den link im neuen Fenster (new) oder im selben (self)
-// Browser target  (new) or self (self)
-var openLink = 'new'; 
 // Öffnet das pagepeel automatisch wenn es geladen ist (false:deaktiviert | 0.1 - X Sekunden bis zum öffnen) 
 // Opens pageear automaticly (false:deactivated | 0.1 - X seconds to open) 
 var openOnLoad = 3; 
