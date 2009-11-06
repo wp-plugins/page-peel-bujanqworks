@@ -1,8 +1,10 @@
 === Page Peel BujanQWorkS ===
-Contributors: bujanq, heru, bodsink
-Tags: page peel, banner, ads
-Requires at least: 1.0
-Tested up to: 2.8.2
+Contributors: bujanq, bodsink
+Donate link: http://www.herukurniawan.com/donation/
+Tags: page peel, banner, ads, plugin, content, page
+Requires at least: 1.2
+Tested up to: 2.8.5
+Stable tag: 1.2
 
 page peel bujanqworks you make in your advertising and promotion is very easy to use.
 
@@ -19,9 +21,18 @@ Step - Step
     1. Download file plugin page-peel-bujanqworks.zip
     2. Install the plugin in the plugins menu
     3. For the configuration BujanQWorkS page peel can be seen from the Settings menu on the Dasbord wp-admin.
-    4. to version 1.1 can only make changes to the small banners, large banner and URL address
+    4. to version 1.2 can only make changes to the small banners, large banner and URL address
+
+== Screenshots ==
+1. screenshot Peel BujanQWorks
+1. option Page Peel BujanQWorks
 
 == Changelog ==
+
+= 1.2 =
+
+* changes in the database table structure
+* additional features color choices, shadow and target link
 
 = 1.1 =
 
