@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Page Peel BujanQWorks
-Plugin URI: http://herukurniawan.com/2009/11/page-peel-bujanqworks-1-2-wordpress-plugin/
+Plugin URI: http://herukurniawan.com/2009/11/page-peel-bujanqworks-1-3-wordpress-plugin/
 Description: Page Peel is the development BujanQWorkS page peel made by <a href="http://pagepeel-at-webpicasso.de">christian harz </a> for the web - web custum / or homemade. To be used for wordpress without opening the source code embedded in the template file, bind BujanQWorkS this source into a user friendly plugin.
 Author: heru kurniawan
-Version: 1.2
+Version: 1.3
 Author URI: http://herukurniawan.com/
 */
 function pageer_header()
@@ -175,11 +175,12 @@ function pageer_cpanel()
 	<?
 		paypal();
 	?>
+	
 What is a Page Peel? Page Peel is the banner ads in web corner if we focus on the mouse cursor will display in the ad folding effect that large ads open. And if the ad is clicked will lead to other web pages that show advertisements.<br /><br />
 
 Page Peel is the development BujanQWorkS page peel made by christian Harz for the web - web custum / or homemade. To be used for wordpress without opening the source code embedded in the template file, bind BujanQWorkS this source into a user friendly plugin.
 	</p>
-	<br /><br /><b>Powered by <a href="http://herukurniawan.com">www.HeruKurniawan.Com</a></b>
+	<br /><br /><b>Powered by <a href="http://herukurniawan.com">www.HeruKurniawan.Com</a> | <a href="http://twitter.com/bujanq">@bujanq On Twitter</a></b>
 	</div>
 	<?
 }
@@ -226,7 +227,7 @@ function pageear_admin_head()
 
 function pageear_load() 
 {
-	add_options_page("PagePeel BW", "PagePeel BW", 1, "PagePeel BW", "pageer_cpanel");
+	add_options_page("PagePeel BW", "PagePeel BW", 1, "PagePeelBW", "pageer_cpanel");
 }
 	add_action('admin_menu', 'pageear_load');
     add_action('wp_head', 'pageer_header');
