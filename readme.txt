@@ -2,9 +2,9 @@
 Contributors: bujanq, bodsink
 Donate link: http://www.herukurniawan.com/donation/
 Tags: page peel, banner, ads, plugin, content, page
-Requires at least: 1.2
+Requires at least: 1.3
 Tested up to: 2.8.5
-Stable tag: 1.2
+Stable tag: 1.3
 
 page peel bujanqworks you make in your advertising and promotion is very easy to use.
 
